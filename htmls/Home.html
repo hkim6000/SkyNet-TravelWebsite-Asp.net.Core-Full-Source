@@ -1,0 +1,80 @@
+<div class="hm-site">
+<header class="hm-head" id="hm-head">
+    <div class="hm-head-row">
+        <button type="button" class="hm-burger" aria-label="Menu" onclick="HomeJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="hm-logo" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="hm-logo-t">Northbound<small>Notes</small></span></a>
+        <nav class="hm-nav" id="hm-nav">
+            <div class="hm-nav-top"><span class="hm-logo"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="hm-logo-t">Northbound<small>Notes</small></span></span>
+                <button type="button" class="hm-nav-x" aria-label="Close" onclick="HomeJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="hm-menu">
+                <li class="hm-mi"><div class="hm-mrow"><a class="hm-ml" href="Blog">Blog</a><button type="button" class="hm-mx" aria-label="Expand" onclick="HomeJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="hm-mega"><div class="hm-mega-in"><div class="hm-mcol"><div class="hm-mtitle">Categories</div><ul><li><a href="Blog?cat=guides">Guides</a></li><li><a href="Blog?cat=stories">Stories</a></li><li><a href="Blog?cat=food">Food</a></li><li><a href="Blog?cat=itineraries">Itineraries</a></li><li><a href="Blog?cat=budget">Budget</a></li></ul></div><div class="hm-mcol"><div class="hm-mtitle">By continent</div><ul><li><a href="Blog?cont=asia">Asia</a></li><li><a href="Blog?cont=europe">Europe</a></li><li><a href="Blog?cont=africa">Africa</a></li><li><a href="Blog?cont=americas">Americas</a></li><li><a href="Blog?cont=oceania">Oceania</a></li></ul></div><a class="hm-mpromo" href="Blog"><img src="images/banners/blog.webp" alt="" loading="lazy"><span class="hm-mpromo-t">Stories from the road</span><span class="hm-mpromo-c">Read the blog &rarr;</span></a></div></div></li><li class="hm-mi"><div class="hm-mrow"><a class="hm-ml" href="Destinations">Destinations</a><button type="button" class="hm-mx" aria-label="Expand" onclick="HomeJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="hm-mega"><div class="hm-mega-in"><div class="hm-mcol"><div class="hm-mtitle">Asia, Africa &amp; Oceania</div><ul><li><a href="Destination?c=japan">Japan</a></li><li><a href="Destination?c=vietnam">Vietnam</a></li><li><a href="Destination?c=morocco">Morocco</a></li><li><a href="Destination?c=kenya">Kenya</a></li><li><a href="Destination?c=newzealand">New Zealand</a></li></ul></div><div class="hm-mcol"><div class="hm-mtitle">Europe &amp; Americas</div><ul><li><a href="Destination?c=italy">Italy</a></li><li><a href="Destination?c=portugal">Portugal</a></li><li><a href="Destination?c=iceland">Iceland</a></li><li><a href="Destination?c=greece">Greece</a></li><li><a href="Destination?c=peru">Peru</a></li><li><a href="Destination?c=mexico">Mexico</a></li><li><a href="Destination?c=canada">Canada</a></li></ul></div><a class="hm-mpromo" href="Destinations"><img src="images/banners/destinations.webp" alt="" loading="lazy"><span class="hm-mpromo-t">12 countries, honestly</span><span class="hm-mpromo-c">All destinations &rarr;</span></a></div></div></li><li class="hm-mi"><div class="hm-mrow"><a class="hm-ml" href="Gallery">Gallery</a><button type="button" class="hm-mx" aria-label="Expand" onclick="HomeJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="hm-mega"><div class="hm-mega-in"><div class="hm-mcol"><div class="hm-mtitle">Themes</div><ul><li><a href="Gallery?theme=mountains">Mountains</a></li><li><a href="Gallery?theme=coast">Coast</a></li><li><a href="Gallery?theme=culture">Culture</a></li><li><a href="Gallery?theme=wild">Wild places</a></li></ul></div><div class="hm-mcol"><div class="hm-mtitle">By continent</div><ul><li><a href="Gallery?cont=asia">Asia</a></li><li><a href="Gallery?cont=europe">Europe</a></li><li><a href="Gallery?cont=africa">Africa</a></li><li><a href="Gallery?cont=americas">Americas</a></li><li><a href="Gallery?cont=oceania">Oceania</a></li></ul></div><a class="hm-mpromo" href="Gallery"><img src="images/banners/gallery.webp" alt="" loading="lazy"><span class="hm-mpromo-t">Postcards from everywhere</span><span class="hm-mpromo-c">Open the gallery &rarr;</span></a></div></div></li><li class="hm-mi"><div class="hm-mrow"><a class="hm-ml" href="Tips">Travel Tips</a><button type="button" class="hm-mx" aria-label="Expand" onclick="HomeJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="hm-mega"><div class="hm-mega-in"><div class="hm-mcol"><div class="hm-mtitle">Travel types</div><ul><li><a href="Tips?type=solo">Solo</a></li><li><a href="Tips?type=couples">Couples</a></li><li><a href="Tips?type=family">Family</a></li><li><a href="Tips?type=backpacking">Backpacking</a></li></ul></div><div class="hm-mcol"><div class="hm-mtitle">More types</div><ul><li><a href="Tips?type=luxury">Luxury</a></li><li><a href="Tips?type=adventure">Adventure</a></li><li><a href="Tips?type=food">Food</a></li><li><a href="Tips?type=remote">Remote work</a></li></ul></div><a class="hm-mpromo" href="Tips#packing"><img src="images/banners/tips.webp" alt="" loading="lazy"><span class="hm-mpromo-t">Build a packing list</span><span class="hm-mpromo-c">Try the packing builder &rarr;</span></a></div></div></li><li class="hm-mi"><div class="hm-mrow"><a class="hm-ml" href="About">About</a></div></li><li class="hm-mi"><div class="hm-mrow"><a class="hm-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="hm-search" id="hm-search">
+            <span class="hm-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="hm-q" placeholder="Search stories, places…" autocomplete="off" maxlength="40" oninput="HomeJs.search(this.value)" onfocus="HomeJs.search(this.value)">
+            <div class="hm-sugg" id="hm-sugg"></div>
+        </div>
+        <a class="hm-cta" href="#newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg><span>Subscribe</span></a>
+    </div>
+    <div class="hm-scrim" id="hm-scrim" onclick="HomeJs.closeNav()"></div>
+</header>
+<main class="hm-main">
+    <section class="hm-hero">
+        <img class="hm-hero-bg" src="images/hero.webp" alt="">
+        <div class="hm-hero-in">
+            <div class="hm-eyebrow">A travel blog by Mara Ellison</div>
+            <h1>Slow travel, <em>honest</em> stories.</h1>
+            <p>Itineraries that leave room to breathe, food worth crossing a city for, and the tips I wish I&rsquo;d known before I went.</p>
+            <div class="hm-hero-btns"><a class="hm-btn" href="Blog">Read the blog</a><a class="hm-btn hm-btn-o" href="Destinations">Explore destinations</a></div>
+        </div>
+    </section>
+    <div class="hm-wrap">
+        <section class="hm-sec">
+            <div class="hm-sec-h"><div><div class="hm-eyebrow">Latest stories</div><h2>Fresh from the road</h2></div><a href="Blog">All stories &rarr;</a></div>
+            <div class="hm-latest">{plhd_latest}</div>
+        </section>
+        <section class="hm-sec">
+            <div class="hm-sec-h"><div><div class="hm-eyebrow">Destinations</div><h2>Where to next?</h2></div><a href="Destinations">All 12 countries &rarr;</a></div>
+            <div class="hm-places hm-places-6">{plhd_places}</div>
+        </section>
+        <section class="hm-sec">
+            <div class="hm-sec-h"><div><div class="hm-eyebrow">Gallery</div><h2>Postcards from everywhere</h2></div><a href="Gallery">Open the gallery &rarr;</a></div>
+            <div class="hm-strip">{plhd_gallery}</div>
+        </section>
+        <section class="hm-sec">
+            <div class="hm-sec-h"><div><div class="hm-eyebrow">Travel tips</div><h2>Tips for every kind of traveler</h2></div><a href="Tips#packing">Packing builder &rarr;</a></div>
+            <div class="hm-types"><a class="hm-type" href="Tips?type=solo"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><b>Solo</b></a><a class="hm-type" href="Tips?type=couples"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><b>Couples</b></a><a class="hm-type" href="Tips?type=family"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8" cy="6.5" r="2.5"/><circle cx="16" cy="6.5" r="2.5"/><circle cx="12" cy="13" r="2"/><path d="M4 20c0-3.5 2-6 4-6s3 1 4 3M20 20c0-3.5-2-6-4-6s-3 1-4 3M10 20c0-1.5 1-3 2-3s2 1.5 2 3"/></svg><b>Family</b></a><a class="hm-type" href="Tips?type=backpacking"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7 8a5 5 0 0 1 10 0v12H7z"/><path d="M9 5V3h6v2M7 13h10M10 13v3h4v-3"/></svg><b>Backpacking</b></a><a class="hm-type" href="Tips?type=luxury"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><b>Luxury</b></a><a class="hm-type" href="Tips?type=adventure"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 20l7-12 4 6 3-4 6 10z"/><path d="M7.5 10.5l1.5 1.5 1.5-1.5"/></svg><b>Adventure</b></a><a class="hm-type" href="Tips?type=food"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 11h18a9 9 0 0 1-18 0zM8 4c0 2 2 2 2 4M12 3c0 2 2 2 2 4"/><path d="M9 20h6"/></svg><b>Food</b></a><a class="hm-type" href="Tips?type=remote"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg><b>Remote work</b></a></div>
+        </section>
+        <section class="hm-sec hm-hello">
+            <span class="hm-ava">ME</span>
+            <div><div class="hm-eyebrow">Hello</div><h3>I&rsquo;m Mara. I travel slowly and write honestly.</h3><p>Twelve years, thirty-four countries and one rule: give every place more time than you think it needs.</p><a class="hm-btn hm-btn-o" href="About">More about me</a></div>
+        </section>
+    </div>
+</main>
+<section class="hm-nl" id="newsletter">
+    <div class="hm-nl-in">
+        <div><div class="hm-eyebrow hm-eyebrow-l">The postcard</div><h3>One honest travel letter, once a month.</h3><p>New stories, one useful tip and a photo I loved. No spam, ever.</p></div>
+        <div class="hm-nl-box">
+            <div class="hm-nl-f"><input type="email" id="hm-nl-email" placeholder="Your email address" maxlength="80" autocomplete="off"><button type="button" onclick="HomeJs.subscribe()">Subscribe</button></div>
+            <div class="hm-nl-msg" id="hm-nl-msg"></div>
+        </div>
+    </div>
+</section>
+<footer class="hm-foot">
+    <div class="hm-foot-in">
+        <div class="hm-fbrand">
+            <a class="hm-logo hm-logo-l" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="hm-logo-t">Northbound<small>Notes</small></span></a>
+            <p>Slow travel and honest stories from Mara Ellison &mdash; one country, one season, one long lunch at a time.</p>
+            <div class="hm-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="#" aria-label="Pins"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M11 16l2-8M10 9.5a3 3 0 1 1 3.5 3"/></svg></a><a href="#newsletter" aria-label="Newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></a></div>
+        </div>
+        <div class="hm-fcol"><div class="hm-ftitle">Explore</div><ul><li><a href="Blog">Blog</a></li><li><a href="Destinations">Destinations</a></li><li><a href="Gallery">Gallery</a></li><li><a href="Tips">Travel Tips</a></li></ul></div><div class="hm-fcol"><div class="hm-ftitle">Continents</div><ul><li><a href="Destinations?cont=asia">Asia</a></li><li><a href="Destinations?cont=europe">Europe</a></li><li><a href="Destinations?cont=africa">Africa</a></li><li><a href="Destinations?cont=americas">Americas</a></li><li><a href="Destinations?cont=oceania">Oceania</a></li></ul></div><div class="hm-fcol"><div class="hm-ftitle">About</div><ul><li><a href="About">About me</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Work with me</a></li><li><a href="Tips#packing">Packing builder</a></li></ul></div>
+    </div>
+    <div class="hm-disc">Northbound Notes and its author are fictional. Stories and photos are illustrative &mdash; always check official sources before you travel.</div>
+    <div class="hm-foot-bar">
+        <span>&copy; 2026 Northbound Notes (fictional). All rights reserved.</span>
+        <span><a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="#">Accessibility</a></span>
+        <span class="hm-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+</div>

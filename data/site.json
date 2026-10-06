@@ -1,0 +1,1496 @@
+{
+  "continents": [
+    {
+      "key": "asia",
+      "label": "Asia"
+    },
+    {
+      "key": "europe",
+      "label": "Europe"
+    },
+    {
+      "key": "africa",
+      "label": "Africa"
+    },
+    {
+      "key": "americas",
+      "label": "Americas"
+    },
+    {
+      "key": "oceania",
+      "label": "Oceania"
+    }
+  ],
+  "categories": [
+    {
+      "key": "guides",
+      "label": "Guides"
+    },
+    {
+      "key": "stories",
+      "label": "Stories"
+    },
+    {
+      "key": "food",
+      "label": "Food"
+    },
+    {
+      "key": "itineraries",
+      "label": "Itineraries"
+    },
+    {
+      "key": "budget",
+      "label": "Budget"
+    }
+  ],
+  "themes": [
+    {
+      "key": "mountains",
+      "label": "Mountains"
+    },
+    {
+      "key": "coast",
+      "label": "Coast"
+    },
+    {
+      "key": "culture",
+      "label": "Culture"
+    },
+    {
+      "key": "wild",
+      "label": "Wild places"
+    }
+  ],
+  "tipTypes": [
+    {
+      "key": "solo",
+      "label": "Solo"
+    },
+    {
+      "key": "couples",
+      "label": "Couples"
+    },
+    {
+      "key": "family",
+      "label": "Family"
+    },
+    {
+      "key": "backpacking",
+      "label": "Backpacking"
+    },
+    {
+      "key": "luxury",
+      "label": "Luxury"
+    },
+    {
+      "key": "adventure",
+      "label": "Adventure"
+    },
+    {
+      "key": "food",
+      "label": "Food"
+    },
+    {
+      "key": "remote",
+      "label": "Remote work"
+    }
+  ],
+  "countries": [
+    {
+      "key": "japan",
+      "name": "Japan",
+      "continent": "asia",
+      "tagline": "Temples, trains and quiet mornings",
+      "overview": "Japan rewards slow travelers: ancient shrines a short walk from neon streets, mountain hot springs, and some of the best everyday food anywhere. Trains make it easy to move between big cities and small towns.",
+      "season": "Spring and autumn",
+      "highlights": [
+        "Kyoto's temple lanes",
+        "Hot-spring towns in the mountains",
+        "Tokyo's food alleys",
+        "Island hopping in the Seto Inland Sea"
+      ],
+      "image": "images/places/japan.webp"
+    },
+    {
+      "key": "vietnam",
+      "name": "Vietnam",
+      "continent": "asia",
+      "tagline": "Limestone bays and street-side noodles",
+      "overview": "From misty northern mountains to the river deltas of the south, Vietnam is long, green and full of flavor. Mornings start with noodle soup and coffee on a plastic stool.",
+      "season": "Varies by region; spring is pleasant across most of the country",
+      "highlights": [
+        "Karst bays in the north",
+        "Hoi An's lantern-lit old town",
+        "Rice terraces in the highlands",
+        "The Mekong Delta by boat"
+      ],
+      "image": "images/places/vietnam.webp"
+    },
+    {
+      "key": "italy",
+      "name": "Italy",
+      "continent": "europe",
+      "tagline": "Hill towns, cypress roads and long lunches",
+      "overview": "Italy is many countries in one: Alpine lakes, Renaissance cities, olive groves and island coastlines. Travel by regional train and let the meals set the pace.",
+      "season": "April to June and September to October",
+      "highlights": [
+        "Tuscan hill towns",
+        "Florence's museums",
+        "The Dolomites",
+        "Sicilian markets"
+      ],
+      "image": "images/places/italy.webp"
+    },
+    {
+      "key": "portugal",
+      "name": "Portugal",
+      "continent": "europe",
+      "tagline": "Tiled facades and Atlantic light",
+      "overview": "Portugal mixes hillside cities, wild surf beaches and quiet wine valleys. The light here is soft and golden, and the pastries are hard to resist.",
+      "season": "Spring through early autumn",
+      "highlights": [
+        "Lisbon's hilltop viewpoints",
+        "Porto and the Douro Valley",
+        "Algarve sea cliffs",
+        "Sintra's palaces"
+      ],
+      "image": "images/places/portugal.webp"
+    },
+    {
+      "key": "iceland",
+      "name": "Iceland",
+      "continent": "europe",
+      "tagline": "Glaciers, waterfalls and northern lights",
+      "overview": "Iceland is raw and elemental: black-sand beaches, roaring waterfalls and lava fields under huge skies. Weather changes fast, so plan with flexibility.",
+      "season": "Summer for long days; winter for northern lights",
+      "highlights": [
+        "The South Coast waterfalls",
+        "Glacier lagoons",
+        "Geothermal pools",
+        "Aurora nights in winter"
+      ],
+      "image": "images/places/iceland.webp"
+    },
+    {
+      "key": "greece",
+      "name": "Greece",
+      "continent": "europe",
+      "tagline": "Whitewashed villages and blue water",
+      "overview": "Greece is sea, stone and sunshine. Island ferries connect whitewashed villages, ancient ruins sit beside busy cafes, and dinner starts late.",
+      "season": "May, June and September",
+      "highlights": [
+        "Cycladic island villages",
+        "Ancient sites near Athens",
+        "Hiking gorges in Crete",
+        "Sunset over the caldera"
+      ],
+      "image": "images/places/greece.webp"
+    },
+    {
+      "key": "morocco",
+      "name": "Morocco",
+      "continent": "africa",
+      "tagline": "Desert dunes and mosaic courtyards",
+      "overview": "Morocco moves from busy medinas to silent desert in a day's drive. Mint tea is a welcome, and riads hide calm courtyards behind plain walls.",
+      "season": "Spring and autumn",
+      "highlights": [
+        "Medina markets",
+        "A night in the Sahara dunes",
+        "Atlas Mountain villages",
+        "Blue-washed hill towns"
+      ],
+      "image": "images/places/morocco.webp"
+    },
+    {
+      "key": "kenya",
+      "name": "Kenya",
+      "continent": "africa",
+      "tagline": "Savanna sunrises and wide horizons",
+      "overview": "Kenya is about early starts and wide horizons: savanna game drives, highland tea country and a long Indian Ocean coast.",
+      "season": "The dry seasons, roughly July to October and January to February",
+      "highlights": [
+        "Savanna game drives",
+        "Views of the highlands",
+        "Coastal dhow trips",
+        "Rift Valley lakes"
+      ],
+      "image": "images/places/kenya.webp"
+    },
+    {
+      "key": "peru",
+      "name": "Peru",
+      "continent": "americas",
+      "tagline": "Andean peaks and terraced ruins",
+      "overview": "Peru stacks deserts, high Andes and Amazon rainforest into one country. Take the altitude slowly and save room for one of the world's great food scenes.",
+      "season": "May to September in the Andes",
+      "highlights": [
+        "Ancient terraces in the Sacred Valley",
+        "High-altitude treks",
+        "Lima's food scene",
+        "Lake towns on the altiplano"
+      ],
+      "image": "images/places/peru.webp"
+    },
+    {
+      "key": "mexico",
+      "name": "Mexico",
+      "continent": "americas",
+      "tagline": "Pyramids, cenotes and colorful towns",
+      "overview": "Mexico is vast and generous: ancient pyramids, colonial towns painted every color, and swimming holes in the jungle. Every region has its own cooking.",
+      "season": "November to April for most regions",
+      "highlights": [
+        "Ancient pyramid sites",
+        "Cenote swimming",
+        "Oaxaca's markets",
+        "Pacific coast sunsets"
+      ],
+      "image": "images/places/mexico.webp"
+    },
+    {
+      "key": "canada",
+      "name": "Canada",
+      "continent": "americas",
+      "tagline": "Lakes, pines and mountain roads",
+      "overview": "Canada's scale is the point: turquoise lakes, endless forest and mountain highways. Cities are friendly and the wilderness starts right outside them.",
+      "season": "June to September for the mountains",
+      "highlights": [
+        "Rocky Mountain lakes",
+        "Canoe trips through the forest",
+        "Coastal rainforest",
+        "Autumn colors in the east"
+      ],
+      "image": "images/places/canada.webp"
+    },
+    {
+      "key": "newzealand",
+      "name": "New Zealand",
+      "continent": "oceania",
+      "tagline": "Fjords, peaks and green valleys",
+      "overview": "New Zealand packs fjords, volcanoes, beaches and alpine passes into two islands. Hit the trails, then warm up in a small-town bakery.",
+      "season": "December to March for hiking",
+      "highlights": [
+        "Fjord cruises in the south",
+        "Multi-day alpine treks",
+        "Geothermal valleys",
+        "Wine country on the coast"
+      ],
+      "image": "images/places/newzealand.webp"
+    }
+  ],
+  "posts": [
+    {
+      "id": "first-morning-in-kyoto",
+      "title": "My first morning in Kyoto",
+      "country": "japan",
+      "category": "stories",
+      "date": "2026-09-22",
+      "minutes": 7,
+      "excerpt": "I set my alarm for 5 a.m. and walked to the temples before the crowds. It was the best decision of the trip.",
+      "body": [
+        "I came to Japan with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was kyoto's temple lanes. Go early if you can; the light is softer and the paths are quiet. After that, hot-spring towns in the mountains made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Japan is best in spring and autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Japan",
+        "Stories"
+      ],
+      "image": "images/posts/01.webp"
+    },
+    {
+      "id": "japan-rail-itinerary-14-days",
+      "title": "Two weeks in Japan by train",
+      "country": "japan",
+      "category": "itineraries",
+      "date": "2026-08-30",
+      "minutes": 11,
+      "excerpt": "A slow, rail-first route through big cities, mountain towns and a few quiet islands.",
+      "body": [
+        "I came to Japan with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was kyoto's temple lanes. Go early if you can; the light is softer and the paths are quiet. After that, hot-spring towns in the mountains made a perfect slow afternoon.",
+        "My route moved at the pace of one main sight a day, with a rest day roughly every five days. It sounds slow, but it never felt rushed — and I saw more because of it.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Japan is best in spring and autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Japan",
+        "Itineraries"
+      ],
+      "image": "images/posts/02.webp"
+    },
+    {
+      "id": "tokyo-food-alleys",
+      "title": "Eating my way through Tokyo's back alleys",
+      "country": "japan",
+      "category": "food",
+      "date": "2026-06-14",
+      "minutes": 8,
+      "excerpt": "Tiny counters, handwritten menus and the best skewers I've ever had.",
+      "body": [
+        "I came to Japan with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "Markets were my classroom here. I asked what was in season, pointed a lot, and ate far too well. The food around kyoto's temple lanes is worth the trip alone.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Japan is best in spring and autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Japan",
+        "Food"
+      ],
+      "image": "images/posts/03.webp"
+    },
+    {
+      "id": "vietnam-north-to-south",
+      "title": "Vietnam north to south in 3 weeks",
+      "country": "vietnam",
+      "category": "itineraries",
+      "date": "2026-09-08",
+      "minutes": 12,
+      "excerpt": "Mountains, lantern towns, beaches and the delta — how I split the time.",
+      "body": [
+        "I came to Vietnam with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was karst bays in the north. Go early if you can; the light is softer and the paths are quiet. After that, hoi an's lantern-lit old town made a perfect slow afternoon.",
+        "My route moved at the pace of one main sight a day, with a rest day roughly every five days. It sounds slow, but it never felt rushed — and I saw more because of it.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Vietnam is best in varies by region; spring is pleasant across most of the country, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Vietnam",
+        "Itineraries"
+      ],
+      "image": "images/posts/04.webp"
+    },
+    {
+      "id": "pho-before-sunrise",
+      "title": "Pho before sunrise",
+      "country": "vietnam",
+      "category": "food",
+      "date": "2026-05-20",
+      "minutes": 5,
+      "excerpt": "Why the best bowl of soup in Hanoi is the one you eat at 6 a.m.",
+      "body": [
+        "I came to Vietnam with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "Markets were my classroom here. I asked what was in season, pointed a lot, and ate far too well. The food around karst bays in the north is worth the trip alone.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Vietnam is best in varies by region; spring is pleasant across most of the country, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Vietnam",
+        "Food"
+      ],
+      "image": "images/posts/05.webp"
+    },
+    {
+      "id": "karst-bay-kayak",
+      "title": "Paddling between limestone towers",
+      "country": "vietnam",
+      "category": "stories",
+      "date": "2026-03-02",
+      "minutes": 6,
+      "excerpt": "A day in a kayak, a sea cave and a lot of silence.",
+      "body": [
+        "I came to Vietnam with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was karst bays in the north. Go early if you can; the light is softer and the paths are quiet. After that, hoi an's lantern-lit old town made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Vietnam is best in varies by region; spring is pleasant across most of the country, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Vietnam",
+        "Stories"
+      ],
+      "image": "images/posts/06.webp"
+    },
+    {
+      "id": "tuscany-slow-roads",
+      "title": "Tuscany on slow roads",
+      "country": "italy",
+      "category": "itineraries",
+      "date": "2026-07-18",
+      "minutes": 9,
+      "excerpt": "Hill towns, cypress avenues and why I stopped planning lunch.",
+      "body": [
+        "I came to Italy with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was tuscan hill towns. Go early if you can; the light is softer and the paths are quiet. After that, florence's museums made a perfect slow afternoon.",
+        "My route moved at the pace of one main sight a day, with a rest day roughly every five days. It sounds slow, but it never felt rushed — and I saw more because of it.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Italy is best in april to june and september to october, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Italy",
+        "Itineraries"
+      ],
+      "image": "images/posts/07.webp"
+    },
+    {
+      "id": "italy-on-a-budget",
+      "title": "Italy on a budget: what actually worked",
+      "country": "italy",
+      "category": "budget",
+      "date": "2026-04-11",
+      "minutes": 10,
+      "excerpt": "Regional trains, market picnics and staying one town over.",
+      "body": [
+        "I came to Italy with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was tuscan hill towns. Go early if you can; the light is softer and the paths are quiet. After that, florence's museums made a perfect slow afternoon.",
+        "Most of my savings came from three habits: traveling by regional transport, eating where locals eat at lunch, and staying a little outside the busiest areas.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Italy",
+        "Budget"
+      ],
+      "image": "images/posts/08.webp"
+    },
+    {
+      "id": "dolomites-hut-to-hut",
+      "title": "Hut to hut in the Dolomites",
+      "country": "italy",
+      "category": "guides",
+      "date": "2025-09-15",
+      "minutes": 13,
+      "excerpt": "Planning a mountain hut trek: routes, bookings and what to pack.",
+      "body": [
+        "I came to Italy with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was tuscan hill towns. Go early if you can; the light is softer and the paths are quiet. After that, florence's museums made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Italy is best in april to june and september to october, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Italy",
+        "Guides"
+      ],
+      "image": "images/posts/09.webp"
+    },
+    {
+      "id": "lisbon-viewpoints",
+      "title": "Lisbon's best viewpoints at golden hour",
+      "country": "portugal",
+      "category": "guides",
+      "date": "2026-08-02",
+      "minutes": 6,
+      "excerpt": "Seven hilltop lookouts and the order I'd walk them in.",
+      "body": [
+        "I came to Portugal with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was lisbon's hilltop viewpoints. Go early if you can; the light is softer and the paths are quiet. After that, porto and the douro valley made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Portugal is best in spring through early autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Portugal",
+        "Guides"
+      ],
+      "image": "images/posts/10.webp"
+    },
+    {
+      "id": "douro-valley-weekend",
+      "title": "A weekend in the Douro Valley",
+      "country": "portugal",
+      "category": "itineraries",
+      "date": "2025-10-21",
+      "minutes": 7,
+      "excerpt": "Terraced vineyards, river boats and long dinners.",
+      "body": [
+        "I came to Portugal with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was lisbon's hilltop viewpoints. Go early if you can; the light is softer and the paths are quiet. After that, porto and the douro valley made a perfect slow afternoon.",
+        "My route moved at the pace of one main sight a day, with a rest day roughly every five days. It sounds slow, but it never felt rushed — and I saw more because of it.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Portugal is best in spring through early autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Portugal",
+        "Itineraries"
+      ],
+      "image": "images/posts/11.webp"
+    },
+    {
+      "id": "pastry-crawl-portugal",
+      "title": "A very serious pastry crawl",
+      "country": "portugal",
+      "category": "food",
+      "date": "2025-06-30",
+      "minutes": 5,
+      "excerpt": "Custard tarts, almond cakes and an honest ranking.",
+      "body": [
+        "I came to Portugal with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "Markets were my classroom here. I asked what was in season, pointed a lot, and ate far too well. The food around lisbon's hilltop viewpoints is worth the trip alone.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Portugal is best in spring through early autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Portugal",
+        "Food"
+      ],
+      "image": "images/posts/12.webp"
+    },
+    {
+      "id": "iceland-ring-road",
+      "title": "Iceland's Ring Road in 10 days",
+      "country": "iceland",
+      "category": "itineraries",
+      "date": "2026-07-03",
+      "minutes": 14,
+      "excerpt": "Waterfalls, glaciers and driving tips for changing weather.",
+      "body": [
+        "I came to Iceland with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was the south coast waterfalls. Go early if you can; the light is softer and the paths are quiet. After that, glacier lagoons made a perfect slow afternoon.",
+        "My route moved at the pace of one main sight a day, with a rest day roughly every five days. It sounds slow, but it never felt rushed — and I saw more because of it.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Iceland is best in summer for long days; winter for northern lights, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Iceland",
+        "Itineraries"
+      ],
+      "image": "images/posts/13.webp"
+    },
+    {
+      "id": "chasing-aurora",
+      "title": "Chasing the northern lights",
+      "country": "iceland",
+      "category": "stories",
+      "date": "2026-02-12",
+      "minutes": 8,
+      "excerpt": "Four cold nights, three cloudy skies and one unforgettable one.",
+      "body": [
+        "I came to Iceland with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was the south coast waterfalls. Go early if you can; the light is softer and the paths are quiet. After that, glacier lagoons made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Iceland is best in summer for long days; winter for northern lights, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Iceland",
+        "Stories"
+      ],
+      "image": "images/posts/14.webp"
+    },
+    {
+      "id": "iceland-budget",
+      "title": "How to do Iceland without breaking the bank",
+      "country": "iceland",
+      "category": "budget",
+      "date": "2025-11-19",
+      "minutes": 9,
+      "excerpt": "Camper vans, supermarket picnics and free hot pools.",
+      "body": [
+        "I came to Iceland with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was the south coast waterfalls. Go early if you can; the light is softer and the paths are quiet. After that, glacier lagoons made a perfect slow afternoon.",
+        "Most of my savings came from three habits: traveling by regional transport, eating where locals eat at lunch, and staying a little outside the busiest areas.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Iceland",
+        "Budget"
+      ],
+      "image": "images/posts/15.webp"
+    },
+    {
+      "id": "greek-island-hopping",
+      "title": "Island hopping in the Cyclades",
+      "country": "greece",
+      "category": "guides",
+      "date": "2026-06-25",
+      "minutes": 10,
+      "excerpt": "Choosing islands, ferries and where to stay.",
+      "body": [
+        "I came to Greece with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was cycladic island villages. Go early if you can; the light is softer and the paths are quiet. After that, ancient sites near athens made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Greece is best in may, june and september, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Greece",
+        "Guides"
+      ],
+      "image": "images/posts/16.webp"
+    },
+    {
+      "id": "caldera-sunset",
+      "title": "The sunset everyone talks about",
+      "country": "greece",
+      "category": "stories",
+      "date": "2025-08-28",
+      "minutes": 4,
+      "excerpt": "Was it worth the crowd? Yes — but here's a quieter spot.",
+      "body": [
+        "I came to Greece with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was cycladic island villages. Go early if you can; the light is softer and the paths are quiet. After that, ancient sites near athens made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Greece is best in may, june and september, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Greece",
+        "Stories"
+      ],
+      "image": "images/posts/17.webp"
+    },
+    {
+      "id": "greek-tavern-guide",
+      "title": "How to order in a Greek taverna",
+      "country": "greece",
+      "category": "food",
+      "date": "2025-07-09",
+      "minutes": 6,
+      "excerpt": "Meze, daily specials and the dish I still dream about.",
+      "body": [
+        "I came to Greece with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "Markets were my classroom here. I asked what was in season, pointed a lot, and ate far too well. The food around cycladic island villages is worth the trip alone.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Greece is best in may, june and september, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Greece",
+        "Food"
+      ],
+      "image": "images/posts/18.webp"
+    },
+    {
+      "id": "night-in-the-sahara",
+      "title": "A night in the Sahara",
+      "country": "morocco",
+      "category": "stories",
+      "date": "2026-04-28",
+      "minutes": 7,
+      "excerpt": "Camels at dusk, a sky full of stars and very cold sand by morning.",
+      "body": [
+        "I came to Morocco with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was medina markets. Go early if you can; the light is softer and the paths are quiet. After that, a night in the sahara dunes made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Morocco is best in spring and autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Morocco",
+        "Stories"
+      ],
+      "image": "images/posts/19.webp"
+    },
+    {
+      "id": "medina-survival-guide",
+      "title": "Medina survival guide",
+      "country": "morocco",
+      "category": "guides",
+      "date": "2025-12-04",
+      "minutes": 8,
+      "excerpt": "Getting lost on purpose, bargaining kindly and finding the quiet courtyards.",
+      "body": [
+        "I came to Morocco with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was medina markets. Go early if you can; the light is softer and the paths are quiet. After that, a night in the sahara dunes made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Morocco is best in spring and autumn, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Morocco",
+        "Guides"
+      ],
+      "image": "images/posts/20.webp"
+    },
+    {
+      "id": "first-safari",
+      "title": "My first safari",
+      "country": "kenya",
+      "category": "stories",
+      "date": "2026-01-26",
+      "minutes": 9,
+      "excerpt": "Early mornings, dusty roads and the moment the lions woke up.",
+      "body": [
+        "I came to Kenya with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was savanna game drives. Go early if you can; the light is softer and the paths are quiet. After that, views of the highlands made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Kenya is best in the dry seasons, roughly july to october and january to february, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Kenya",
+        "Stories"
+      ],
+      "image": "images/posts/21.webp"
+    },
+    {
+      "id": "safari-planning",
+      "title": "Planning a safari: questions to ask",
+      "country": "kenya",
+      "category": "guides",
+      "date": "2025-10-07",
+      "minutes": 10,
+      "excerpt": "Seasons, lodges, guides and how to choose responsibly.",
+      "body": [
+        "I came to Kenya with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was savanna game drives. Go early if you can; the light is softer and the paths are quiet. After that, views of the highlands made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Kenya is best in the dry seasons, roughly july to october and january to february, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Kenya",
+        "Guides"
+      ],
+      "image": "images/posts/22.webp"
+    },
+    {
+      "id": "sacred-valley-altitude",
+      "title": "Altitude, terraces and the Sacred Valley",
+      "country": "peru",
+      "category": "guides",
+      "date": "2026-05-06",
+      "minutes": 11,
+      "excerpt": "How I acclimatized and the ruins that surprised me most.",
+      "body": [
+        "I came to Peru with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was ancient terraces in the sacred valley. Go early if you can; the light is softer and the paths are quiet. After that, high-altitude treks made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Peru is best in may to september in the andes, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Peru",
+        "Guides"
+      ],
+      "image": "images/posts/23.webp"
+    },
+    {
+      "id": "lima-food",
+      "title": "Why Lima is a food city first",
+      "country": "peru",
+      "category": "food",
+      "date": "2025-09-02",
+      "minutes": 6,
+      "excerpt": "Ceviche at lunch, market fruit and a tasting menu worth saving for.",
+      "body": [
+        "I came to Peru with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "Markets were my classroom here. I asked what was in season, pointed a lot, and ate far too well. The food around ancient terraces in the sacred valley is worth the trip alone.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Peru is best in may to september in the andes, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Peru",
+        "Food"
+      ],
+      "image": "images/posts/24.webp"
+    },
+    {
+      "id": "oaxaca-markets",
+      "title": "Getting lost in Oaxaca's markets",
+      "country": "mexico",
+      "category": "food",
+      "date": "2026-03-19",
+      "minutes": 7,
+      "excerpt": "Mole, chocolate and the best tortillas of my life.",
+      "body": [
+        "I came to Mexico with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "Markets were my classroom here. I asked what was in season, pointed a lot, and ate far too well. The food around ancient pyramid sites is worth the trip alone.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Mexico is best in november to april for most regions, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Mexico",
+        "Food"
+      ],
+      "image": "images/posts/25.webp"
+    },
+    {
+      "id": "cenote-days",
+      "title": "Cenote days in the Yucatán",
+      "country": "mexico",
+      "category": "stories",
+      "date": "2025-11-03",
+      "minutes": 5,
+      "excerpt": "Cool water, tree roots and light falling through the rock.",
+      "body": [
+        "I came to Mexico with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was ancient pyramid sites. Go early if you can; the light is softer and the paths are quiet. After that, cenote swimming made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Mexico is best in november to april for most regions, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Mexico",
+        "Stories"
+      ],
+      "image": "images/posts/26.webp"
+    },
+    {
+      "id": "mexico-budget",
+      "title": "Two weeks in Mexico on a budget",
+      "country": "mexico",
+      "category": "budget",
+      "date": "2025-05-15",
+      "minutes": 9,
+      "excerpt": "Buses, market food and staying in small family guesthouses.",
+      "body": [
+        "I came to Mexico with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was ancient pyramid sites. Go early if you can; the light is softer and the paths are quiet. After that, cenote swimming made a perfect slow afternoon.",
+        "Most of my savings came from three habits: traveling by regional transport, eating where locals eat at lunch, and staying a little outside the busiest areas.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Mexico",
+        "Budget"
+      ],
+      "image": "images/posts/27.webp"
+    },
+    {
+      "id": "rockies-lakes",
+      "title": "The Rockies' bluest lakes",
+      "country": "canada",
+      "category": "guides",
+      "date": "2025-08-12",
+      "minutes": 8,
+      "excerpt": "Early starts, shuttle buses and the short hikes that beat the crowds.",
+      "body": [
+        "I came to Canada with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was rocky mountain lakes. Go early if you can; the light is softer and the paths are quiet. After that, canoe trips through the forest made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Canada is best in june to september for the mountains, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Canada",
+        "Guides"
+      ],
+      "image": "images/posts/28.webp"
+    },
+    {
+      "id": "canoe-trip",
+      "title": "Five days by canoe",
+      "country": "canada",
+      "category": "stories",
+      "date": "2025-07-22",
+      "minutes": 10,
+      "excerpt": "Portages, loons at night and learning to be slow.",
+      "body": [
+        "I came to Canada with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was rocky mountain lakes. Go early if you can; the light is softer and the paths are quiet. After that, canoe trips through the forest made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. Canada is best in june to september for the mountains, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Canada",
+        "Stories"
+      ],
+      "image": "images/posts/29.webp"
+    },
+    {
+      "id": "fjordland-tramp",
+      "title": "Tramping in the fjords",
+      "country": "newzealand",
+      "category": "guides",
+      "date": "2026-02-27",
+      "minutes": 12,
+      "excerpt": "Booking huts, packing for rain and three trails I loved.",
+      "body": [
+        "I came to New Zealand with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was fjord cruises in the south. Go early if you can; the light is softer and the paths are quiet. After that, multi-day alpine treks made a perfect slow afternoon.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. New Zealand is best in december to march for hiking, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "New Zealand",
+        "Guides"
+      ],
+      "image": "images/posts/30.webp"
+    },
+    {
+      "id": "nz-road-trip",
+      "title": "A New Zealand road trip in 16 days",
+      "country": "newzealand",
+      "category": "itineraries",
+      "date": "2025-12-18",
+      "minutes": 13,
+      "excerpt": "Both islands, one van and too many bakery stops.",
+      "body": [
+        "I came to New Zealand with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was fjord cruises in the south. Go early if you can; the light is softer and the paths are quiet. After that, multi-day alpine treks made a perfect slow afternoon.",
+        "My route moved at the pace of one main sight a day, with a rest day roughly every five days. It sounds slow, but it never felt rushed — and I saw more because of it.",
+        "If you are planning your own trip, my advice is simple: give each place more time than you think you need. New Zealand is best in december to march for hiking, but every season has its own reasons to visit.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "New Zealand",
+        "Itineraries"
+      ],
+      "image": "images/posts/31.webp"
+    },
+    {
+      "id": "travel-budget-system",
+      "title": "My simple travel budget system",
+      "country": "japan",
+      "category": "budget",
+      "date": "2025-04-08",
+      "minutes": 6,
+      "excerpt": "One spreadsheet, three categories and why I stopped tracking coffee.",
+      "body": [
+        "I came to Japan with a loose plan and a long list. By the end, the list mattered less than the small moments in between — a conversation at a train station, a meal I didn't expect, a view I almost skipped.",
+        "The highlight for me was kyoto's temple lanes. Go early if you can; the light is softer and the paths are quiet. After that, hot-spring towns in the mountains made a perfect slow afternoon.",
+        "Most of my savings came from three habits: traveling by regional transport, eating where locals eat at lunch, and staying a little outside the busiest areas.",
+        "Pack light, carry a reusable water bottle, and leave space in the day for things you can't plan. That's where most of my favorite memories came from."
+      ],
+      "tags": [
+        "Japan",
+        "Budget"
+      ],
+      "image": "images/posts/32.webp"
+    }
+  ],
+  "photos": [
+    {
+      "id": "g01",
+      "country": "japan",
+      "continent": "asia",
+      "theme": "mountains",
+      "caption": "Mountain at first light",
+      "time": "day",
+      "image": "images/gallery/g01.webp"
+    },
+    {
+      "id": "g02",
+      "country": "japan",
+      "continent": "asia",
+      "theme": "culture",
+      "caption": "Temple lane after rain",
+      "time": "golden",
+      "image": "images/gallery/g02.webp"
+    },
+    {
+      "id": "g03",
+      "country": "japan",
+      "continent": "asia",
+      "theme": "coast",
+      "caption": "Lake shore at dusk",
+      "time": "dusk",
+      "image": "images/gallery/g03.webp"
+    },
+    {
+      "id": "g04",
+      "country": "vietnam",
+      "continent": "asia",
+      "theme": "coast",
+      "caption": "Limestone towers in the mist",
+      "time": "day",
+      "image": "images/gallery/g04.webp"
+    },
+    {
+      "id": "g05",
+      "country": "vietnam",
+      "continent": "asia",
+      "theme": "coast",
+      "caption": "Boat at golden hour",
+      "time": "golden",
+      "image": "images/gallery/g05.webp"
+    },
+    {
+      "id": "g06",
+      "country": "vietnam",
+      "continent": "asia",
+      "theme": "mountains",
+      "caption": "Rice terraces in the highlands",
+      "time": "dusk",
+      "image": "images/gallery/g06.webp"
+    },
+    {
+      "id": "g07",
+      "country": "italy",
+      "continent": "europe",
+      "theme": "culture",
+      "caption": "Cypress road at sunrise",
+      "time": "day",
+      "image": "images/gallery/g07.webp"
+    },
+    {
+      "id": "g08",
+      "country": "italy",
+      "continent": "europe",
+      "theme": "culture",
+      "caption": "Hill town above the vines",
+      "time": "golden",
+      "image": "images/gallery/g08.webp"
+    },
+    {
+      "id": "g09",
+      "country": "italy",
+      "continent": "europe",
+      "theme": "mountains",
+      "caption": "Evening over the valley",
+      "time": "dusk",
+      "image": "images/gallery/g09.webp"
+    },
+    {
+      "id": "g10",
+      "country": "portugal",
+      "continent": "europe",
+      "theme": "culture",
+      "caption": "Rooftops and the river",
+      "time": "day",
+      "image": "images/gallery/g10.webp"
+    },
+    {
+      "id": "g11",
+      "country": "portugal",
+      "continent": "europe",
+      "theme": "coast",
+      "caption": "Atlantic cliffs",
+      "time": "golden",
+      "image": "images/gallery/g11.webp"
+    },
+    {
+      "id": "g12",
+      "country": "portugal",
+      "continent": "europe",
+      "theme": "culture",
+      "caption": "Tram street at night",
+      "time": "night",
+      "image": "images/gallery/g12.webp"
+    },
+    {
+      "id": "g13",
+      "country": "iceland",
+      "continent": "europe",
+      "theme": "mountains",
+      "caption": "Glacier tongue",
+      "time": "day",
+      "image": "images/gallery/g13.webp"
+    },
+    {
+      "id": "g14",
+      "country": "iceland",
+      "continent": "europe",
+      "theme": "wild",
+      "caption": "Waterfall in spray",
+      "time": "golden",
+      "image": "images/gallery/g14.webp"
+    },
+    {
+      "id": "g15",
+      "country": "iceland",
+      "continent": "europe",
+      "theme": "wild",
+      "caption": "Aurora over the fjord",
+      "time": "night",
+      "image": "images/gallery/g15.webp"
+    },
+    {
+      "id": "g16",
+      "country": "greece",
+      "continent": "europe",
+      "theme": "coast",
+      "caption": "Blue domes above the sea",
+      "time": "day",
+      "image": "images/gallery/g16.webp"
+    },
+    {
+      "id": "g17",
+      "country": "greece",
+      "continent": "europe",
+      "theme": "coast",
+      "caption": "Harbor at noon",
+      "time": "golden",
+      "image": "images/gallery/g17.webp"
+    },
+    {
+      "id": "g18",
+      "country": "greece",
+      "continent": "europe",
+      "theme": "coast",
+      "caption": "Caldera sunset",
+      "time": "dusk",
+      "image": "images/gallery/g18.webp"
+    },
+    {
+      "id": "g19",
+      "country": "morocco",
+      "continent": "africa",
+      "theme": "wild",
+      "caption": "Dunes at sunset",
+      "time": "day",
+      "image": "images/gallery/g19.webp"
+    },
+    {
+      "id": "g20",
+      "country": "morocco",
+      "continent": "africa",
+      "theme": "wild",
+      "caption": "Camel caravan",
+      "time": "golden",
+      "image": "images/gallery/g20.webp"
+    },
+    {
+      "id": "g21",
+      "country": "morocco",
+      "continent": "africa",
+      "theme": "wild",
+      "caption": "Desert night sky",
+      "time": "night",
+      "image": "images/gallery/g21.webp"
+    },
+    {
+      "id": "g22",
+      "country": "kenya",
+      "continent": "africa",
+      "theme": "wild",
+      "caption": "Acacia at sunrise",
+      "time": "day",
+      "image": "images/gallery/g22.webp"
+    },
+    {
+      "id": "g23",
+      "country": "kenya",
+      "continent": "africa",
+      "theme": "wild",
+      "caption": "Giraffes on the plain",
+      "time": "golden",
+      "image": "images/gallery/g23.webp"
+    },
+    {
+      "id": "g24",
+      "country": "kenya",
+      "continent": "africa",
+      "theme": "wild",
+      "caption": "Savanna storm light",
+      "time": "dusk",
+      "image": "images/gallery/g24.webp"
+    },
+    {
+      "id": "g25",
+      "country": "peru",
+      "continent": "americas",
+      "theme": "mountains",
+      "caption": "Terraces in the clouds",
+      "time": "day",
+      "image": "images/gallery/g25.webp"
+    },
+    {
+      "id": "g26",
+      "country": "peru",
+      "continent": "americas",
+      "theme": "mountains",
+      "caption": "Andean pass",
+      "time": "golden",
+      "image": "images/gallery/g26.webp"
+    },
+    {
+      "id": "g27",
+      "country": "peru",
+      "continent": "americas",
+      "theme": "wild",
+      "caption": "Llama on the ridge",
+      "time": "dusk",
+      "image": "images/gallery/g27.webp"
+    },
+    {
+      "id": "g28",
+      "country": "mexico",
+      "continent": "americas",
+      "theme": "culture",
+      "caption": "Pyramid at dawn",
+      "time": "day",
+      "image": "images/gallery/g28.webp"
+    },
+    {
+      "id": "g29",
+      "country": "mexico",
+      "continent": "americas",
+      "theme": "wild",
+      "caption": "Desert cactus garden",
+      "time": "golden",
+      "image": "images/gallery/g29.webp"
+    },
+    {
+      "id": "g30",
+      "country": "mexico",
+      "continent": "americas",
+      "theme": "culture",
+      "caption": "Temple in the evening",
+      "time": "dusk",
+      "image": "images/gallery/g30.webp"
+    },
+    {
+      "id": "g31",
+      "country": "canada",
+      "continent": "americas",
+      "theme": "mountains",
+      "caption": "Turquoise lake",
+      "time": "day",
+      "image": "images/gallery/g31.webp"
+    },
+    {
+      "id": "g32",
+      "country": "canada",
+      "continent": "americas",
+      "theme": "coast",
+      "caption": "Canoe at sunrise",
+      "time": "golden",
+      "image": "images/gallery/g32.webp"
+    },
+    {
+      "id": "g33",
+      "country": "canada",
+      "continent": "americas",
+      "theme": "wild",
+      "caption": "Pines under the stars",
+      "time": "night",
+      "image": "images/gallery/g33.webp"
+    },
+    {
+      "id": "g34",
+      "country": "newzealand",
+      "continent": "oceania",
+      "theme": "coast",
+      "caption": "Fjord waterfall",
+      "time": "day",
+      "image": "images/gallery/g34.webp"
+    },
+    {
+      "id": "g35",
+      "country": "newzealand",
+      "continent": "oceania",
+      "theme": "mountains",
+      "caption": "Green peaks",
+      "time": "golden",
+      "image": "images/gallery/g35.webp"
+    },
+    {
+      "id": "g36",
+      "country": "newzealand",
+      "continent": "oceania",
+      "theme": "coast",
+      "caption": "Fjord at dusk",
+      "time": "dusk",
+      "image": "images/gallery/g36.webp"
+    }
+  ],
+  "tips": [
+    {
+      "id": "solo1",
+      "type": "solo",
+      "title": "Share your plans",
+      "text": "Send your route and stays to someone at home, and check in at set times."
+    },
+    {
+      "id": "solo2",
+      "type": "solo",
+      "title": "Choose social stays",
+      "text": "Small guesthouses and hostels with common rooms make it easy to meet people."
+    },
+    {
+      "id": "solo3",
+      "type": "solo",
+      "title": "Eat at the counter",
+      "text": "Counter seats and market stalls turn solo meals into conversations."
+    },
+    {
+      "id": "solo4",
+      "type": "solo",
+      "title": "Trust your instincts",
+      "text": "If a place or offer feels wrong, leave. You never owe anyone an explanation."
+    },
+    {
+      "id": "solo5",
+      "type": "solo",
+      "title": "Plan one anchor a day",
+      "text": "One booked activity gives each day shape without over-planning."
+    },
+    {
+      "id": "couples1",
+      "type": "couples",
+      "title": "Split the planning",
+      "text": "Each person plans a few days. You'll both get surprises."
+    },
+    {
+      "id": "couples2",
+      "type": "couples",
+      "title": "Build in alone time",
+      "text": "An afternoon apart makes dinner together better."
+    },
+    {
+      "id": "couples3",
+      "type": "couples",
+      "title": "Pick one splurge",
+      "text": "Choose one special night or meal and keep the rest simple."
+    },
+    {
+      "id": "couples4",
+      "type": "couples",
+      "title": "Agree on a pace",
+      "text": "Talk early about early starts, rest days and budget."
+    },
+    {
+      "id": "couples5",
+      "type": "couples",
+      "title": "Pack one shared bag",
+      "text": "One bag for chargers, snacks and documents saves a lot of searching."
+    },
+    {
+      "id": "family1",
+      "type": "family",
+      "title": "Fewer bases, longer stays",
+      "text": "Moving every day is hard with kids. Stay three nights or more."
+    },
+    {
+      "id": "family2",
+      "type": "family",
+      "title": "Plan around naps and meals",
+      "text": "Big sights in the morning, slow afternoons, early dinners."
+    },
+    {
+      "id": "family3",
+      "type": "family",
+      "title": "Let kids choose",
+      "text": "Give children one pick each day — a museum, a park, a snack."
+    },
+    {
+      "id": "family4",
+      "type": "family",
+      "title": "Pack a calm-down kit",
+      "text": "Headphones, a favorite snack and a small game fix most travel moods."
+    },
+    {
+      "id": "family5",
+      "type": "family",
+      "title": "Book family rooms early",
+      "text": "Rooms that sleep four are limited; reserve them first."
+    },
+    {
+      "id": "backpacking1",
+      "type": "backpacking",
+      "title": "Pack light, then lighter",
+      "text": "Lay everything out, then remove a third of it."
+    },
+    {
+      "id": "backpacking2",
+      "type": "backpacking",
+      "title": "Use overnight transport",
+      "text": "Night buses and trains save a night of accommodation."
+    },
+    {
+      "id": "backpacking3",
+      "type": "backpacking",
+      "title": "Cook sometimes",
+      "text": "Hostel kitchens and markets stretch a budget further than anything."
+    },
+    {
+      "id": "backpacking4",
+      "type": "backpacking",
+      "title": "Carry a small lock",
+      "text": "Lockers in dorms often need your own padlock."
+    },
+    {
+      "id": "backpacking5",
+      "type": "backpacking",
+      "title": "Keep a buffer day",
+      "text": "Leave one unplanned day each week for delays or a place you love."
+    },
+    {
+      "id": "luxury1",
+      "type": "luxury",
+      "title": "Book direct",
+      "text": "Hotels often add upgrades or late checkout for direct bookings."
+    },
+    {
+      "id": "luxury2",
+      "type": "luxury",
+      "title": "Use a local guide",
+      "text": "A great guide is the best luxury: context, access and time saved."
+    },
+    {
+      "id": "luxury3",
+      "type": "luxury",
+      "title": "Travel off-peak",
+      "text": "Shoulder seasons bring better rooms and quieter places."
+    },
+    {
+      "id": "luxury4",
+      "type": "luxury",
+      "title": "Plan arrivals",
+      "text": "Arrange transfers so the first hour of the trip is easy."
+    },
+    {
+      "id": "luxury5",
+      "type": "luxury",
+      "title": "Leave space",
+      "text": "Luxury is unhurried time — keep afternoons free."
+    },
+    {
+      "id": "adventure1",
+      "type": "adventure",
+      "title": "Train before you go",
+      "text": "Practice with your pack and boots on real hills."
+    },
+    {
+      "id": "adventure2",
+      "type": "adventure",
+      "title": "Check conditions daily",
+      "text": "Weather, trail and water conditions change fast."
+    },
+    {
+      "id": "adventure3",
+      "type": "adventure",
+      "title": "Hire local experts",
+      "text": "Mountain and water guides know what maps don't."
+    },
+    {
+      "id": "adventure4",
+      "type": "adventure",
+      "title": "Carry the basics",
+      "text": "Headlamp, layers, first-aid kit and extra water, every time."
+    },
+    {
+      "id": "adventure5",
+      "type": "adventure",
+      "title": "Know your turnaround time",
+      "text": "Decide in advance when you'll head back, whatever happens."
+    },
+    {
+      "id": "food1",
+      "type": "food",
+      "title": "Follow the queue",
+      "text": "A line of locals at lunch is the best review."
+    },
+    {
+      "id": "food2",
+      "type": "food",
+      "title": "Take a market tour",
+      "text": "A morning with a cook teaches you what to order all trip."
+    },
+    {
+      "id": "food3",
+      "type": "food",
+      "title": "Eat at lunch",
+      "text": "Many famous restaurants offer lunch menus at a fraction of dinner prices."
+    },
+    {
+      "id": "food4",
+      "type": "food",
+      "title": "Learn five food words",
+      "text": "Knowing the words for local dishes opens every menu."
+    },
+    {
+      "id": "food5",
+      "type": "food",
+      "title": "Ask what's in season",
+      "text": "The best dish is usually the one made with this week's produce."
+    },
+    {
+      "id": "remote1",
+      "type": "remote",
+      "title": "Test the internet first",
+      "text": "Ask hosts for a speed test screenshot before you book."
+    },
+    {
+      "id": "remote2",
+      "type": "remote",
+      "title": "Keep home-time hours",
+      "text": "Block meetings in a window that works for both time zones."
+    },
+    {
+      "id": "remote3",
+      "type": "remote",
+      "title": "Choose monthly stays",
+      "text": "Longer stays lower costs and make a routine easier."
+    },
+    {
+      "id": "remote4",
+      "type": "remote",
+      "title": "Pack a travel desk kit",
+      "text": "Laptop stand, compact keyboard and a long charging cable."
+    },
+    {
+      "id": "remote5",
+      "type": "remote",
+      "title": "Protect weekends",
+      "text": "Explore on days off so travel doesn't become just work elsewhere."
+    }
+  ]
+}

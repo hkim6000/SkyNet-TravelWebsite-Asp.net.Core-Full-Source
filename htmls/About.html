@@ -1,0 +1,71 @@
+<div class="ab-site">
+<header class="ab-head" id="ab-head">
+    <div class="ab-head-row">
+        <button type="button" class="ab-burger" aria-label="Menu" onclick="AboutJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ab-logo" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="ab-logo-t">Northbound<small>Notes</small></span></a>
+        <nav class="ab-nav" id="ab-nav">
+            <div class="ab-nav-top"><span class="ab-logo"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="ab-logo-t">Northbound<small>Notes</small></span></span>
+                <button type="button" class="ab-nav-x" aria-label="Close" onclick="AboutJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="ab-menu">
+                <li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Blog">Blog</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">Categories</div><ul><li><a href="Blog?cat=guides">Guides</a></li><li><a href="Blog?cat=stories">Stories</a></li><li><a href="Blog?cat=food">Food</a></li><li><a href="Blog?cat=itineraries">Itineraries</a></li><li><a href="Blog?cat=budget">Budget</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">By continent</div><ul><li><a href="Blog?cont=asia">Asia</a></li><li><a href="Blog?cont=europe">Europe</a></li><li><a href="Blog?cont=africa">Africa</a></li><li><a href="Blog?cont=americas">Americas</a></li><li><a href="Blog?cont=oceania">Oceania</a></li></ul></div><a class="ab-mpromo" href="Blog"><img src="images/banners/blog.webp" alt="" loading="lazy"><span class="ab-mpromo-t">Stories from the road</span><span class="ab-mpromo-c">Read the blog &rarr;</span></a></div></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Destinations">Destinations</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">Asia, Africa &amp; Oceania</div><ul><li><a href="Destination?c=japan">Japan</a></li><li><a href="Destination?c=vietnam">Vietnam</a></li><li><a href="Destination?c=morocco">Morocco</a></li><li><a href="Destination?c=kenya">Kenya</a></li><li><a href="Destination?c=newzealand">New Zealand</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">Europe &amp; Americas</div><ul><li><a href="Destination?c=italy">Italy</a></li><li><a href="Destination?c=portugal">Portugal</a></li><li><a href="Destination?c=iceland">Iceland</a></li><li><a href="Destination?c=greece">Greece</a></li><li><a href="Destination?c=peru">Peru</a></li><li><a href="Destination?c=mexico">Mexico</a></li><li><a href="Destination?c=canada">Canada</a></li></ul></div><a class="ab-mpromo" href="Destinations"><img src="images/banners/destinations.webp" alt="" loading="lazy"><span class="ab-mpromo-t">12 countries, honestly</span><span class="ab-mpromo-c">All destinations &rarr;</span></a></div></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Gallery">Gallery</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">Themes</div><ul><li><a href="Gallery?theme=mountains">Mountains</a></li><li><a href="Gallery?theme=coast">Coast</a></li><li><a href="Gallery?theme=culture">Culture</a></li><li><a href="Gallery?theme=wild">Wild places</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">By continent</div><ul><li><a href="Gallery?cont=asia">Asia</a></li><li><a href="Gallery?cont=europe">Europe</a></li><li><a href="Gallery?cont=africa">Africa</a></li><li><a href="Gallery?cont=americas">Americas</a></li><li><a href="Gallery?cont=oceania">Oceania</a></li></ul></div><a class="ab-mpromo" href="Gallery"><img src="images/banners/gallery.webp" alt="" loading="lazy"><span class="ab-mpromo-t">Postcards from everywhere</span><span class="ab-mpromo-c">Open the gallery &rarr;</span></a></div></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Tips">Travel Tips</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">Travel types</div><ul><li><a href="Tips?type=solo">Solo</a></li><li><a href="Tips?type=couples">Couples</a></li><li><a href="Tips?type=family">Family</a></li><li><a href="Tips?type=backpacking">Backpacking</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">More types</div><ul><li><a href="Tips?type=luxury">Luxury</a></li><li><a href="Tips?type=adventure">Adventure</a></li><li><a href="Tips?type=food">Food</a></li><li><a href="Tips?type=remote">Remote work</a></li></ul></div><a class="ab-mpromo" href="Tips#packing"><img src="images/banners/tips.webp" alt="" loading="lazy"><span class="ab-mpromo-t">Build a packing list</span><span class="ab-mpromo-c">Try the packing builder &rarr;</span></a></div></div></li><li class="ab-mi ab-on"><div class="ab-mrow"><a class="ab-ml" href="About">About</a></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="ab-search" id="ab-search">
+            <span class="ab-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="ab-q" placeholder="Search stories, places…" autocomplete="off" maxlength="40" oninput="AboutJs.search(this.value)" onfocus="AboutJs.search(this.value)">
+            <div class="ab-sugg" id="ab-sugg"></div>
+        </div>
+        <a class="ab-cta" href="#newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg><span>Subscribe</span></a>
+    </div>
+    <div class="ab-scrim" id="ab-scrim" onclick="AboutJs.closeNav()"></div>
+</header>
+<main class="ab-main">
+    <section class="ab-banner">
+        <img src="images/banners/about.webp" alt="">
+        <div class="ab-banner-txt"><div class="ab-eyebrow">About</div><h1>Hi, I&rsquo;m Mara</h1><p>A former office worker who swapped spreadsheets for slow trains &mdash; and never looked back.</p></div>
+    </section>
+    <div class="ab-wrap"><div class="ab-crumb"><a href="Home">Home</a><span>/</span>About</div></div>
+    <div class="ab-wrap">
+        <section class="ab-sec ab-story">
+            <span class="ab-ava ab-ava-l">ME</span>
+            <div><h2>Why I travel slowly</h2>
+            <p>My first trip was a rushed, two-week sprint through five countries. I came home with a camera full of photos and almost no memories. On the next trip I stayed in one town for a month, and I still remember the names of the people who ran the bakery.</p>
+            <p>Northbound Notes is where I share what I&rsquo;ve learned since: itineraries that leave room to breathe, food worth crossing a city for, and honest advice &mdash; including the mistakes.</p></div>
+        </section>
+        <section class="ab-sec"><div class="ab-stats"><div class="ab-stat"><b>34</b><span>countries visited</span></div><div class="ab-stat"><b>410k</b><span>kilometers traveled</span></div><div class="ab-stat"><b>32</b><span>stories published</span></div><div class="ab-stat"><b>6</b><span>continents</span></div></div></section>
+        <section class="ab-sec">
+            <div class="ab-sec-h"><div><div class="ab-eyebrow">The journey</div><h2>A short timeline</h2></div></div>
+            <ol class="ab-timeline"><li><b>2014</b><span>First solo trip: a backpack, a rail pass and no plan.</span></li><li><b>2017</b><span>Started Northbound Notes to keep family updated.</span></li><li><b>2019</b><span>Left an office job to travel and write full time.</span></li><li><b>2022</b><span>Hiked hut to hut across three mountain ranges.</span></li><li><b>2024</b><span>Crossed 30 countries; started the travel tips series.</span></li><li><b>2026</b><span>Still slow traveling — and still learning.</span></li></ol>
+        </section>
+        <section class="ab-sec">
+            <div class="ab-sec-h"><div><div class="ab-eyebrow">The map</div><h2>Where I&rsquo;ve written about</h2></div><a href="Destinations">All destinations &rarr;</a></div>
+            <div class="ab-where">{plhd_where}</div>
+        </section>
+    </div>
+</main>
+<section class="ab-nl" id="newsletter">
+    <div class="ab-nl-in">
+        <div><div class="ab-eyebrow ab-eyebrow-l">The postcard</div><h3>One honest travel letter, once a month.</h3><p>New stories, one useful tip and a photo I loved. No spam, ever.</p></div>
+        <div class="ab-nl-box">
+            <div class="ab-nl-f"><input type="email" id="ab-nl-email" placeholder="Your email address" maxlength="80" autocomplete="off"><button type="button" onclick="AboutJs.subscribe()">Subscribe</button></div>
+            <div class="ab-nl-msg" id="ab-nl-msg"></div>
+        </div>
+    </div>
+</section>
+<footer class="ab-foot">
+    <div class="ab-foot-in">
+        <div class="ab-fbrand">
+            <a class="ab-logo ab-logo-l" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="ab-logo-t">Northbound<small>Notes</small></span></a>
+            <p>Slow travel and honest stories from Mara Ellison &mdash; one country, one season, one long lunch at a time.</p>
+            <div class="ab-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="#" aria-label="Pins"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M11 16l2-8M10 9.5a3 3 0 1 1 3.5 3"/></svg></a><a href="#newsletter" aria-label="Newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></a></div>
+        </div>
+        <div class="ab-fcol"><div class="ab-ftitle">Explore</div><ul><li><a href="Blog">Blog</a></li><li><a href="Destinations">Destinations</a></li><li><a href="Gallery">Gallery</a></li><li><a href="Tips">Travel Tips</a></li></ul></div><div class="ab-fcol"><div class="ab-ftitle">Continents</div><ul><li><a href="Destinations?cont=asia">Asia</a></li><li><a href="Destinations?cont=europe">Europe</a></li><li><a href="Destinations?cont=africa">Africa</a></li><li><a href="Destinations?cont=americas">Americas</a></li><li><a href="Destinations?cont=oceania">Oceania</a></li></ul></div><div class="ab-fcol"><div class="ab-ftitle">About</div><ul><li><a href="About">About me</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Work with me</a></li><li><a href="Tips#packing">Packing builder</a></li></ul></div>
+    </div>
+    <div class="ab-disc">Northbound Notes and its author are fictional. Stories and photos are illustrative &mdash; always check official sources before you travel.</div>
+    <div class="ab-foot-bar">
+        <span>&copy; 2026 Northbound Notes (fictional). All rights reserved.</span>
+        <span><a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="#">Accessibility</a></span>
+        <span class="ab-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+</div>

@@ -1,0 +1,62 @@
+<div class="ds-site">
+<header class="ds-head" id="ds-head">
+    <div class="ds-head-row">
+        <button type="button" class="ds-burger" aria-label="Menu" onclick="DestinationsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ds-logo" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="ds-logo-t">Northbound<small>Notes</small></span></a>
+        <nav class="ds-nav" id="ds-nav">
+            <div class="ds-nav-top"><span class="ds-logo"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="ds-logo-t">Northbound<small>Notes</small></span></span>
+                <button type="button" class="ds-nav-x" aria-label="Close" onclick="DestinationsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="ds-menu">
+                <li class="ds-mi"><div class="ds-mrow"><a class="ds-ml" href="Blog">Blog</a><button type="button" class="ds-mx" aria-label="Expand" onclick="DestinationsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ds-mega"><div class="ds-mega-in"><div class="ds-mcol"><div class="ds-mtitle">Categories</div><ul><li><a href="Blog?cat=guides">Guides</a></li><li><a href="Blog?cat=stories">Stories</a></li><li><a href="Blog?cat=food">Food</a></li><li><a href="Blog?cat=itineraries">Itineraries</a></li><li><a href="Blog?cat=budget">Budget</a></li></ul></div><div class="ds-mcol"><div class="ds-mtitle">By continent</div><ul><li><a href="Blog?cont=asia">Asia</a></li><li><a href="Blog?cont=europe">Europe</a></li><li><a href="Blog?cont=africa">Africa</a></li><li><a href="Blog?cont=americas">Americas</a></li><li><a href="Blog?cont=oceania">Oceania</a></li></ul></div><a class="ds-mpromo" href="Blog"><img src="images/banners/blog.webp" alt="" loading="lazy"><span class="ds-mpromo-t">Stories from the road</span><span class="ds-mpromo-c">Read the blog &rarr;</span></a></div></div></li><li class="ds-mi ds-on"><div class="ds-mrow"><a class="ds-ml" href="Destinations">Destinations</a><button type="button" class="ds-mx" aria-label="Expand" onclick="DestinationsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ds-mega"><div class="ds-mega-in"><div class="ds-mcol"><div class="ds-mtitle">Asia, Africa &amp; Oceania</div><ul><li><a href="Destination?c=japan">Japan</a></li><li><a href="Destination?c=vietnam">Vietnam</a></li><li><a href="Destination?c=morocco">Morocco</a></li><li><a href="Destination?c=kenya">Kenya</a></li><li><a href="Destination?c=newzealand">New Zealand</a></li></ul></div><div class="ds-mcol"><div class="ds-mtitle">Europe &amp; Americas</div><ul><li><a href="Destination?c=italy">Italy</a></li><li><a href="Destination?c=portugal">Portugal</a></li><li><a href="Destination?c=iceland">Iceland</a></li><li><a href="Destination?c=greece">Greece</a></li><li><a href="Destination?c=peru">Peru</a></li><li><a href="Destination?c=mexico">Mexico</a></li><li><a href="Destination?c=canada">Canada</a></li></ul></div><a class="ds-mpromo" href="Destinations"><img src="images/banners/destinations.webp" alt="" loading="lazy"><span class="ds-mpromo-t">12 countries, honestly</span><span class="ds-mpromo-c">All destinations &rarr;</span></a></div></div></li><li class="ds-mi"><div class="ds-mrow"><a class="ds-ml" href="Gallery">Gallery</a><button type="button" class="ds-mx" aria-label="Expand" onclick="DestinationsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ds-mega"><div class="ds-mega-in"><div class="ds-mcol"><div class="ds-mtitle">Themes</div><ul><li><a href="Gallery?theme=mountains">Mountains</a></li><li><a href="Gallery?theme=coast">Coast</a></li><li><a href="Gallery?theme=culture">Culture</a></li><li><a href="Gallery?theme=wild">Wild places</a></li></ul></div><div class="ds-mcol"><div class="ds-mtitle">By continent</div><ul><li><a href="Gallery?cont=asia">Asia</a></li><li><a href="Gallery?cont=europe">Europe</a></li><li><a href="Gallery?cont=africa">Africa</a></li><li><a href="Gallery?cont=americas">Americas</a></li><li><a href="Gallery?cont=oceania">Oceania</a></li></ul></div><a class="ds-mpromo" href="Gallery"><img src="images/banners/gallery.webp" alt="" loading="lazy"><span class="ds-mpromo-t">Postcards from everywhere</span><span class="ds-mpromo-c">Open the gallery &rarr;</span></a></div></div></li><li class="ds-mi"><div class="ds-mrow"><a class="ds-ml" href="Tips">Travel Tips</a><button type="button" class="ds-mx" aria-label="Expand" onclick="DestinationsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ds-mega"><div class="ds-mega-in"><div class="ds-mcol"><div class="ds-mtitle">Travel types</div><ul><li><a href="Tips?type=solo">Solo</a></li><li><a href="Tips?type=couples">Couples</a></li><li><a href="Tips?type=family">Family</a></li><li><a href="Tips?type=backpacking">Backpacking</a></li></ul></div><div class="ds-mcol"><div class="ds-mtitle">More types</div><ul><li><a href="Tips?type=luxury">Luxury</a></li><li><a href="Tips?type=adventure">Adventure</a></li><li><a href="Tips?type=food">Food</a></li><li><a href="Tips?type=remote">Remote work</a></li></ul></div><a class="ds-mpromo" href="Tips#packing"><img src="images/banners/tips.webp" alt="" loading="lazy"><span class="ds-mpromo-t">Build a packing list</span><span class="ds-mpromo-c">Try the packing builder &rarr;</span></a></div></div></li><li class="ds-mi"><div class="ds-mrow"><a class="ds-ml" href="About">About</a></div></li><li class="ds-mi"><div class="ds-mrow"><a class="ds-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="ds-search" id="ds-search">
+            <span class="ds-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="ds-q" placeholder="Search stories, places…" autocomplete="off" maxlength="40" oninput="DestinationsJs.search(this.value)" onfocus="DestinationsJs.search(this.value)">
+            <div class="ds-sugg" id="ds-sugg"></div>
+        </div>
+        <a class="ds-cta" href="#newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg><span>Subscribe</span></a>
+    </div>
+    <div class="ds-scrim" id="ds-scrim" onclick="DestinationsJs.closeNav()"></div>
+</header>
+<main class="ds-main">
+    <section class="ds-banner">
+        <img src="images/banners/destinations.webp" alt="">
+        <div class="ds-banner-txt"><div class="ds-eyebrow">Destinations</div><h1>Where I&rsquo;ve been</h1><p>Twelve countries I keep going back to, with the seasons, highlights and stories for each one.</p></div>
+    </section>
+    <div class="ds-wrap"><div class="ds-crumb"><a href="Home">Home</a><span>/</span>Destinations</div></div>
+    <div class="ds-wrap">
+        <div class="ds-toolbar">
+            <div class="ds-chips" id="ds-chips-cont">{plhd_chips}</div>
+            <span class="ds-count" id="ds-count">{plhd_count}</span>
+            <input type="hidden" class="ds-fv" id="ds-f-cont" data-k="cont" value="{plhd_cont}">
+        </div>
+        <div class="ds-places" id="ds-grid">{plhd_grid}</div>
+    </div>
+</main>
+<section class="ds-nl" id="newsletter">
+    <div class="ds-nl-in">
+        <div><div class="ds-eyebrow ds-eyebrow-l">The postcard</div><h3>One honest travel letter, once a month.</h3><p>New stories, one useful tip and a photo I loved. No spam, ever.</p></div>
+        <div class="ds-nl-box">
+            <div class="ds-nl-f"><input type="email" id="ds-nl-email" placeholder="Your email address" maxlength="80" autocomplete="off"><button type="button" onclick="DestinationsJs.subscribe()">Subscribe</button></div>
+            <div class="ds-nl-msg" id="ds-nl-msg"></div>
+        </div>
+    </div>
+</section>
+<footer class="ds-foot">
+    <div class="ds-foot-in">
+        <div class="ds-fbrand">
+            <a class="ds-logo ds-logo-l" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="ds-logo-t">Northbound<small>Notes</small></span></a>
+            <p>Slow travel and honest stories from Mara Ellison &mdash; one country, one season, one long lunch at a time.</p>
+            <div class="ds-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="#" aria-label="Pins"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M11 16l2-8M10 9.5a3 3 0 1 1 3.5 3"/></svg></a><a href="#newsletter" aria-label="Newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></a></div>
+        </div>
+        <div class="ds-fcol"><div class="ds-ftitle">Explore</div><ul><li><a href="Blog">Blog</a></li><li><a href="Destinations">Destinations</a></li><li><a href="Gallery">Gallery</a></li><li><a href="Tips">Travel Tips</a></li></ul></div><div class="ds-fcol"><div class="ds-ftitle">Continents</div><ul><li><a href="Destinations?cont=asia">Asia</a></li><li><a href="Destinations?cont=europe">Europe</a></li><li><a href="Destinations?cont=africa">Africa</a></li><li><a href="Destinations?cont=americas">Americas</a></li><li><a href="Destinations?cont=oceania">Oceania</a></li></ul></div><div class="ds-fcol"><div class="ds-ftitle">About</div><ul><li><a href="About">About me</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Work with me</a></li><li><a href="Tips#packing">Packing builder</a></li></ul></div>
+    </div>
+    <div class="ds-disc">Northbound Notes and its author are fictional. Stories and photos are illustrative &mdash; always check official sources before you travel.</div>
+    <div class="ds-foot-bar">
+        <span>&copy; 2026 Northbound Notes (fictional). All rights reserved.</span>
+        <span><a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="#">Accessibility</a></span>
+        <span class="ds-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+</div>

@@ -1,0 +1,74 @@
+<div class="tp-site">
+<header class="tp-head" id="tp-head">
+    <div class="tp-head-row">
+        <button type="button" class="tp-burger" aria-label="Menu" onclick="TipsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="tp-logo" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="tp-logo-t">Northbound<small>Notes</small></span></a>
+        <nav class="tp-nav" id="tp-nav">
+            <div class="tp-nav-top"><span class="tp-logo"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="tp-logo-t">Northbound<small>Notes</small></span></span>
+                <button type="button" class="tp-nav-x" aria-label="Close" onclick="TipsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="tp-menu">
+                <li class="tp-mi"><div class="tp-mrow"><a class="tp-ml" href="Blog">Blog</a><button type="button" class="tp-mx" aria-label="Expand" onclick="TipsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="tp-mega"><div class="tp-mega-in"><div class="tp-mcol"><div class="tp-mtitle">Categories</div><ul><li><a href="Blog?cat=guides">Guides</a></li><li><a href="Blog?cat=stories">Stories</a></li><li><a href="Blog?cat=food">Food</a></li><li><a href="Blog?cat=itineraries">Itineraries</a></li><li><a href="Blog?cat=budget">Budget</a></li></ul></div><div class="tp-mcol"><div class="tp-mtitle">By continent</div><ul><li><a href="Blog?cont=asia">Asia</a></li><li><a href="Blog?cont=europe">Europe</a></li><li><a href="Blog?cont=africa">Africa</a></li><li><a href="Blog?cont=americas">Americas</a></li><li><a href="Blog?cont=oceania">Oceania</a></li></ul></div><a class="tp-mpromo" href="Blog"><img src="images/banners/blog.webp" alt="" loading="lazy"><span class="tp-mpromo-t">Stories from the road</span><span class="tp-mpromo-c">Read the blog &rarr;</span></a></div></div></li><li class="tp-mi"><div class="tp-mrow"><a class="tp-ml" href="Destinations">Destinations</a><button type="button" class="tp-mx" aria-label="Expand" onclick="TipsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="tp-mega"><div class="tp-mega-in"><div class="tp-mcol"><div class="tp-mtitle">Asia, Africa &amp; Oceania</div><ul><li><a href="Destination?c=japan">Japan</a></li><li><a href="Destination?c=vietnam">Vietnam</a></li><li><a href="Destination?c=morocco">Morocco</a></li><li><a href="Destination?c=kenya">Kenya</a></li><li><a href="Destination?c=newzealand">New Zealand</a></li></ul></div><div class="tp-mcol"><div class="tp-mtitle">Europe &amp; Americas</div><ul><li><a href="Destination?c=italy">Italy</a></li><li><a href="Destination?c=portugal">Portugal</a></li><li><a href="Destination?c=iceland">Iceland</a></li><li><a href="Destination?c=greece">Greece</a></li><li><a href="Destination?c=peru">Peru</a></li><li><a href="Destination?c=mexico">Mexico</a></li><li><a href="Destination?c=canada">Canada</a></li></ul></div><a class="tp-mpromo" href="Destinations"><img src="images/banners/destinations.webp" alt="" loading="lazy"><span class="tp-mpromo-t">12 countries, honestly</span><span class="tp-mpromo-c">All destinations &rarr;</span></a></div></div></li><li class="tp-mi"><div class="tp-mrow"><a class="tp-ml" href="Gallery">Gallery</a><button type="button" class="tp-mx" aria-label="Expand" onclick="TipsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="tp-mega"><div class="tp-mega-in"><div class="tp-mcol"><div class="tp-mtitle">Themes</div><ul><li><a href="Gallery?theme=mountains">Mountains</a></li><li><a href="Gallery?theme=coast">Coast</a></li><li><a href="Gallery?theme=culture">Culture</a></li><li><a href="Gallery?theme=wild">Wild places</a></li></ul></div><div class="tp-mcol"><div class="tp-mtitle">By continent</div><ul><li><a href="Gallery?cont=asia">Asia</a></li><li><a href="Gallery?cont=europe">Europe</a></li><li><a href="Gallery?cont=africa">Africa</a></li><li><a href="Gallery?cont=americas">Americas</a></li><li><a href="Gallery?cont=oceania">Oceania</a></li></ul></div><a class="tp-mpromo" href="Gallery"><img src="images/banners/gallery.webp" alt="" loading="lazy"><span class="tp-mpromo-t">Postcards from everywhere</span><span class="tp-mpromo-c">Open the gallery &rarr;</span></a></div></div></li><li class="tp-mi tp-on"><div class="tp-mrow"><a class="tp-ml" href="Tips">Travel Tips</a><button type="button" class="tp-mx" aria-label="Expand" onclick="TipsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="tp-mega"><div class="tp-mega-in"><div class="tp-mcol"><div class="tp-mtitle">Travel types</div><ul><li><a href="Tips?type=solo">Solo</a></li><li><a href="Tips?type=couples">Couples</a></li><li><a href="Tips?type=family">Family</a></li><li><a href="Tips?type=backpacking">Backpacking</a></li></ul></div><div class="tp-mcol"><div class="tp-mtitle">More types</div><ul><li><a href="Tips?type=luxury">Luxury</a></li><li><a href="Tips?type=adventure">Adventure</a></li><li><a href="Tips?type=food">Food</a></li><li><a href="Tips?type=remote">Remote work</a></li></ul></div><a class="tp-mpromo" href="Tips#packing"><img src="images/banners/tips.webp" alt="" loading="lazy"><span class="tp-mpromo-t">Build a packing list</span><span class="tp-mpromo-c">Try the packing builder &rarr;</span></a></div></div></li><li class="tp-mi"><div class="tp-mrow"><a class="tp-ml" href="About">About</a></div></li><li class="tp-mi"><div class="tp-mrow"><a class="tp-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="tp-search" id="tp-search">
+            <span class="tp-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="tp-q" placeholder="Search stories, places…" autocomplete="off" maxlength="40" oninput="TipsJs.search(this.value)" onfocus="TipsJs.search(this.value)">
+            <div class="tp-sugg" id="tp-sugg"></div>
+        </div>
+        <a class="tp-cta" href="#newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg><span>Subscribe</span></a>
+    </div>
+    <div class="tp-scrim" id="tp-scrim" onclick="TipsJs.closeNav()"></div>
+</header>
+<main class="tp-main">
+    <section class="tp-banner">
+        <img src="images/banners/tips.webp" alt="">
+        <div class="tp-banner-txt"><div class="tp-eyebrow">Travel tips</div><h1>Travel smarter, your way</h1><p>Practical tips for every kind of traveler &mdash; plus a packing list built for your trip.</p></div>
+    </section>
+    <div class="tp-wrap"><div class="tp-crumb"><a href="Home">Home</a><span>/</span>Travel Tips</div></div>
+    <div class="tp-wrap">
+        <div class="tp-toolbar">
+            <div class="tp-chips" id="tp-chips-type">{plhd_chips}</div>
+            <span class="tp-count" id="tp-count">{plhd_count}</span>
+            <input type="hidden" class="tp-fv" id="tp-f-type" data-k="type" value="{plhd_type}">
+        </div>
+        <div class="tp-tips" id="tp-grid">{plhd_grid}</div>
+        <section class="tp-sec tp-pack-sec" id="packing">
+            <div class="tp-pack-form">
+                <div class="tp-eyebrow">Packing builder</div>
+                <h2>Build my packing list</h2>
+                <p>Pick your trip and get a checklist made for it.</p>
+                <label>Travel type<select class="tp-sel" id="tp-pk-type"><option value="solo" selected>Solo</option><option value="couples">Couples</option><option value="family">Family</option><option value="backpacking">Backpacking</option><option value="luxury">Luxury</option><option value="adventure">Adventure</option><option value="food">Food</option><option value="remote">Remote work</option></select></label>
+                <label>Trip length<select class="tp-sel" id="tp-pk-days"><option value="3">3 days</option><option value="7" selected>1 week</option><option value="14">2 weeks</option><option value="30">1 month</option></select></label>
+                <label>Climate<select class="tp-sel" id="tp-pk-climate"><option value="warm">Warm</option><option value="mild" selected>Mild</option><option value="cold">Cold</option></select></label>
+                <button type="button" class="tp-btn" onclick="TipsJs.pack()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg><span>Build my list</span></button>
+            </div>
+            <div class="tp-pack" id="tp-pack"><div class="tp-pack-empty">Your checklist will appear here.</div></div>
+        </section>
+    </div>
+</main>
+<section class="tp-nl" id="newsletter">
+    <div class="tp-nl-in">
+        <div><div class="tp-eyebrow tp-eyebrow-l">The postcard</div><h3>One honest travel letter, once a month.</h3><p>New stories, one useful tip and a photo I loved. No spam, ever.</p></div>
+        <div class="tp-nl-box">
+            <div class="tp-nl-f"><input type="email" id="tp-nl-email" placeholder="Your email address" maxlength="80" autocomplete="off"><button type="button" onclick="TipsJs.subscribe()">Subscribe</button></div>
+            <div class="tp-nl-msg" id="tp-nl-msg"></div>
+        </div>
+    </div>
+</section>
+<footer class="tp-foot">
+    <div class="tp-foot-in">
+        <div class="tp-fbrand">
+            <a class="tp-logo tp-logo-l" href="Home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F2A2E"/><circle cx="32" cy="32" r="22" fill="none" stroke="#E3A63A" stroke-width="2.5"/><path d="M32 12 L38 32 L32 52 L26 32 Z" fill="#C4623A"/><path d="M32 12 L38 32 L26 32 Z" fill="#F3E3C8"/></svg><span class="tp-logo-t">Northbound<small>Notes</small></span></a>
+            <p>Slow travel and honest stories from Mara Ellison &mdash; one country, one season, one long lunch at a time.</p>
+            <div class="tp-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="#" aria-label="Pins"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M11 16l2-8M10 9.5a3 3 0 1 1 3.5 3"/></svg></a><a href="#newsletter" aria-label="Newsletter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></a></div>
+        </div>
+        <div class="tp-fcol"><div class="tp-ftitle">Explore</div><ul><li><a href="Blog">Blog</a></li><li><a href="Destinations">Destinations</a></li><li><a href="Gallery">Gallery</a></li><li><a href="Tips">Travel Tips</a></li></ul></div><div class="tp-fcol"><div class="tp-ftitle">Continents</div><ul><li><a href="Destinations?cont=asia">Asia</a></li><li><a href="Destinations?cont=europe">Europe</a></li><li><a href="Destinations?cont=africa">Africa</a></li><li><a href="Destinations?cont=americas">Americas</a></li><li><a href="Destinations?cont=oceania">Oceania</a></li></ul></div><div class="tp-fcol"><div class="tp-ftitle">About</div><ul><li><a href="About">About me</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Work with me</a></li><li><a href="Tips#packing">Packing builder</a></li></ul></div>
+    </div>
+    <div class="tp-disc">Northbound Notes and its author are fictional. Stories and photos are illustrative &mdash; always check official sources before you travel.</div>
+    <div class="tp-foot-bar">
+        <span>&copy; 2026 Northbound Notes (fictional). All rights reserved.</span>
+        <span><a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="#">Accessibility</a></span>
+        <span class="tp-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+</div>
