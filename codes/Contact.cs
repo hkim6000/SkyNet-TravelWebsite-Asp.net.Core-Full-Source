@@ -13,7 +13,7 @@ namespace Travel.codes
             HtmlDoc.SetTitle("Contact | Northbound Notes");
             HtmlDoc.AddMetaElement("viewport", "width=device-width, initial-scale=1");
             HtmlDoc.AddMetaElement("description", "Get in touch with Northbound Notes.");
-            await Task.CompletedTask;
+            
         }
 
         private static readonly string[] Topics = { "collab", "question", "feedback", "other" };
@@ -21,7 +21,7 @@ namespace Travel.codes
         public async Task<ApiResponse> Send()
         {
             ApiResponse response = new ApiResponse();
-            await Task.CompletedTask;
+            
             string name = (GetDataValue("name") ?? string.Empty).Trim();
             string email = (GetDataValue("email") ?? string.Empty).Trim();
             string topic = (GetDataValue("topic") ?? string.Empty).Trim();
@@ -94,7 +94,7 @@ namespace Travel.codes
         public async Task<ApiResponse> Subscribe()
         {
             ApiResponse response = new ApiResponse();
-            await Task.CompletedTask;
+            
             string email = (GetDataValue("email") ?? string.Empty).Trim();
             if (!IsEmail(email))
             {
